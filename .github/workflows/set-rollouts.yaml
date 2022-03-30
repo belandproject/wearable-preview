@@ -56,6 +56,6 @@ jobs:
           packageVersion: ${{ github.event.deployment.payload.packageVersion }}
 
           # Rollout information
-          deploymentDomain: 'wearable-preview.decentraland.org'
+          deploymentDomain: 'wearable-preview.beland.io'
           deploymentName: '_site'
           percentage: 100
