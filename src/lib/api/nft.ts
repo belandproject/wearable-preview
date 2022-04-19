@@ -16,6 +16,7 @@ class NFTApi {
     const row = rows[0]
     return {
       name: row.name,
+      rarity: row.traits.find((t: { name: string }) => t.name==='rarity')?.value,
       data: {
         representations: row.data.representations.map((representation: { contents: { path: any; hash: string }[] }) => {
           return {
