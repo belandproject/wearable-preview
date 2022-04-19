@@ -42,7 +42,7 @@ function getPublicUrls() {
     if (process.env.CI) {
       // master/main branch, also releases
       return {
-        PUBLIC_URL: `https://cdn.beland.io/${packageJson.name}/${packageJson.version}`,
+        PUBLIC_URL: ``,
       }
     }
   }
