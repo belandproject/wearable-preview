@@ -9,7 +9,7 @@ export const nftApiByEnv: Record<Env, string> = {
 
 class NFTApi {
   async fetchWearable(id: string, env: Env) {
-    const { rows } = await json<{ rows: any[] }>(`${nftApiByEnv[env]}/collection-items?id=${id}`)
+    const { rows } = await json<{ rows: any[] }>(`${nftApiByEnv[env]}/items?id=${id}`)
     if (rows.length === 0) {
       throw new Error(`Item not found for id=${id}`)
     }
