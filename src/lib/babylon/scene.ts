@@ -19,7 +19,7 @@ import {
   Vector3,
 } from '@babylonjs/core'
 import '@babylonjs/loaders'
-import { WearableBodyShape } from '@dcl/schemas'
+import { WearableBodyShape } from '@beland/schemas'
 import { AvatarCamera, AvatarPreview, AvatarPreviewType } from '../avatar'
 import { getContentUrl, getRepresentation, isTexture } from '../representation'
 import { Wearable } from '../wearable'

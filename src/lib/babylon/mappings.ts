@@ -1,6 +1,6 @@
 import { SceneLoader } from '@babylonjs/core'
 import { GLTFFileLoader } from '@babylonjs/loaders'
-import { WearableBodyShape } from '@dcl/schemas'
+import { WearableBodyShape } from '@beland/schemas'
 import { AvatarPreview } from '../avatar'
 import { getRepresentation } from '../representation'
 import { Wearable } from '../wearable'

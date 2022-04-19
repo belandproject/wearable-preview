@@ -1,4 +1,4 @@
-import { WearableCategory } from '@dcl/schemas'
+import { WearableCategory } from '@beland/schemas'
 import { Wearable } from './wearable'
 
 export function parseZoom(rawZoom: string | null) {

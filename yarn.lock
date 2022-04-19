@@ -1204,6 +1204,13 @@
   "resolved" "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   "version" "0.2.3"
 
+"@beland/schemas@^0.0.3":
+  "integrity" "sha512-AJMmh32djXmcelrYxYJDmoyvWzvpVnFnXmenbDMr0PG/wFL8mt3dz36hzP+cX4WZyUue0XucumWC3tDFPJQjeA=="
+  "resolved" "https://registry.npmjs.org/@beland/schemas/-/schemas-0.0.3.tgz"
+  "version" "0.0.3"
+  dependencies:
+    "ajv" "^7.1.0"
+
 "@cnakazawa/watch@^1.0.3":
   "integrity" "sha512-v9kIhKwjeZThiWrLmj0y17CWoyddASLj9O2yvbZkbvw/N3rWOYy9zkV66ursAoVr0mV15bL8g0c4QZUE6cdDoQ=="
   "resolved" "https://registry.npmjs.org/@cnakazawa/watch/-/watch-1.0.4.tgz"
@@ -1226,13 +1233,6 @@
   "integrity" "sha512-mvjMQryY+in8TKNNOzyp+ibq4gvnbnI0AX+KgbFLCD4LJyQPi59jeeyqGHAmassKqQiC2iCDvZc5FxDw9FxqRQ=="
   "resolved" "https://registry.npmjs.org/@dcl/schemas/-/schemas-0.2.0.tgz"
   "version" "0.2.0"
-  dependencies:
-    "ajv" "^7.1.0"
-
-"@dcl/schemas@^3.7.0":
-  "integrity" "sha512-uXFWmSIouSG5qZnJ+ngOyjS047VoPIfgpZ7Xi+UX485ZMw69+cZOkV6bYTOznr9v26RAddw3YaZ8UjOEp2bQDg=="
-  "resolved" "https://registry.npmjs.org/@dcl/schemas/-/schemas-3.7.0.tgz"
-  "version" "3.7.0"
   dependencies:
     "ajv" "^7.1.0"
 

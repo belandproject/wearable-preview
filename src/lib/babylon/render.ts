@@ -6,7 +6,7 @@ import { applyFacialFeatures, getFacialFeatures } from './face'
 import { setupMappings } from './mappings'
 import { Asset, center, createScene, loadWearable } from './scene'
 import { isFacialFeature, isModel, isSuccesful } from './utils'
-import { WearableBodyShape } from '@dcl/schemas'
+import { WearableBodyShape } from '@beland/schemas'
 
 /**
  * Initializes Babylon, creates the scene and loads a list of wearables in it

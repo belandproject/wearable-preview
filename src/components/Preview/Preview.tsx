@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import classNames from 'classnames'
-import { WearableBodyShape } from '@dcl/schemas'
+import { WearableBodyShape } from '@beland/schemas'
 import { useWindowSize } from '../../hooks/useWindowSize'
 import { useAvatar } from '../../hooks/useAvatar'
 import { MessageType, sendMessage } from '../../lib/message'

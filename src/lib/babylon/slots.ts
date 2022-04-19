@@ -1,4 +1,4 @@
-import { WearableCategory } from '@dcl/schemas'
+import { WearableCategory } from '@beland/schemas'
 import { AvatarPreview } from '../avatar'
 import { hasRepresentation } from '../representation'
 import { isEmote, Wearable } from '../wearable'

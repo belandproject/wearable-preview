@@ -1,4 +1,4 @@
-import { WearableBodyShape, WearableRepresentation as WearableRepresentationBroken } from '@dcl/schemas'
+import { WearableBodyShape, WearableRepresentation as WearableRepresentationBroken } from '@beland/schemas'
 import { Wearable } from './wearable'
 
 export type WearableRepresentation = Omit<WearableRepresentationBroken, 'contents'> & { contents: { key: string; url: string }[] }

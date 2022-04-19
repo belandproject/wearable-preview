@@ -1,4 +1,4 @@
-import { WearableCategory } from '@dcl/schemas'
+import { WearableCategory } from '@beland/schemas'
 import { getRepresentationOrDefault, isTexture } from '../representation'
 import { Wearable } from '../wearable'
 import { Asset } from './scene'

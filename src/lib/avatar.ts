@@ -1,4 +1,4 @@
-import { Rarity, WearableBodyShape } from '@dcl/schemas'
+import { Rarity, WearableBodyShape } from '@beland/schemas'
 import { Env } from '../types/env'
 import { nftApi } from './api/nft'
 import { colorToHex, formatHex } from './color'

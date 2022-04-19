@@ -1,4 +1,4 @@
-import { WearableCategory } from '@dcl/schemas'
+import { WearableCategory } from '@beland/schemas'
 import { Asset } from './scene'
 import { isHidden } from './utils'
 

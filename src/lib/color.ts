@@ -1,5 +1,5 @@
 import { Color3 } from '@babylonjs/core'
-import { Color3 as RGB } from '@dcl/schemas'
+import { Color3 as RGB } from '@beland/schemas'
 
 export function formatHex(color: string) {
   return color.startsWith('#') ? color : '#' + color

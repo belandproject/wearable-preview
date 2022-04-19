@@ -1,5 +1,5 @@
 import { AbstractMesh, Color3, Orientation, PBRMaterial, Scene, StandardMaterial, Texture } from '@babylonjs/core'
-import { WearableBodyShape, WearableCategory } from '@dcl/schemas'
+import { WearableBodyShape, WearableCategory } from '@beland/schemas'
 import { AvatarPreview } from '../avatar'
 import { hexToColor } from '../color'
 import { Wearable } from '../wearable'
