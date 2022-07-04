@@ -2,7 +2,7 @@ import { Wearable as WearableBroken, WearableBodyShape, WearableCategory } from 
 import { WearableRepresentation } from './representation'
 
 export type Wearable = Omit<WearableBroken, 'data' | 'names'> & {
-  name: string
+  name: string  
   data: Omit<WearableBroken['data'], 'representations'> & {
     representations: WearableRepresentation[]
   }
@@ -60,16 +60,16 @@ export function getDefaultWearableUrn(category: WearableCategory, shape: Wearabl
         : 'urn:beland:off-chain:base-avatars:standard_hair'
     case WearableCategory.UPPER_BODY:
       return shape === WearableBodyShape.MALE
-        ? 'urn:beland:off-chain:base-avatars:green_hoodie'
-        : 'urn:beland:off-chain:base-avatars:f_sweater'
+        ? 'urn:beland:off-chain:base-avatars:three_striped_tshirt'
+        : 'urn:beland:off-chain:base-avatars:red_tshirt'
     case WearableCategory.LOWER_BODY:
       return shape === WearableBodyShape.MALE
-        ? 'urn:beland:off-chain:base-avatars:brown_pants'
-        : 'urn:beland:off-chain:base-avatars:f_jeans'
+        ? 'urn:beland:off-chain:base-avatars:red_pants'
+        : 'urn:beland:off-chain:base-avatars:pale_green_pants'
     case WearableCategory.FEET:
       return shape === WearableBodyShape.MALE
-        ? 'urn:beland:off-chain:base-avatars:sneakers'
-        : 'urn:beland:off-chain:base-avatars:bun_shoes'
+        ? 'urn:beland:off-chain:base-avatars:yellow_stripped_shoes'
+        : 'urn:beland:off-chain:base-avatars:yellow_stripped_shoes'
     default:
       throw new Error(`There is no default wearable for category="${category}"`)
   }

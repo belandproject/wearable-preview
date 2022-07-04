@@ -18,6 +18,7 @@ class NFTApi {
       name: row.name,
       rarity: row.traits.find((t: { name: string }) => t.name==='rarity')?.value,
       data: {
+        category: row.traits.find((t: { name: string }) => t.name==='category')?.value,
         representations: row.data.representations.map((representation: { contents: { path: any; hash: string }[] }) => {
           return {
             ...representation,
@@ -48,7 +49,7 @@ class NFTApi {
     if (rows.length === 0) {
       throw new Error(`User not found for ${userId}`)
     }
-    return rows[0]
+    return {avatars: rows}
   }
 }
 
